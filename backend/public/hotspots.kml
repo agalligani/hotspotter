@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Birding Hotpots</name>
+    <Placemark>
+      <name>Willcox--Lake Cochise and Twin Lakes Golf Course</name>
+      <description>328 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.8243175,32.2298515,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sulphur Springs Valley--south of Sunizona</name>
+      <description>186 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.6864126,31.6799882,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portal--Willow Tank</name>
+      <description>247 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.0595016,31.8145008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portal--Cave Creek Ranch</name>
+      <description>232 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.1561556,31.9041957,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portal--Bob Rodrigues yard (Dave Jasper's old yard)</name>
+      <description>202 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.1282621,31.921224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portal--Big Thicket</name>
+      <description>163 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.1275024,31.9204006,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Johnny Ringo's gravesite/W. Turkey Cr. Rd. pond (private)</name>
+      <description>39 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.418862,31.865864,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Johnny Ringo's gravesite/W. Turkey Cr. Rd. pond (private)</name>
+      <description>39 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.418862,31.865864,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Garden Canyon Rd--BETWEEN Upper Picnic Area and Sawmill Canyon</name>
+      <description>165 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.361756,31.460941,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fort Huachuca (Historical, do not use for current lists)</name>
+      <description>225 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.3466807,31.5200639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chiricahua National Monument</name>
+      <description>211 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.3566656,32.0054606,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cave Creek Canyon</name>
+      <description>225 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.166851,31.8935,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa de San Pedro B&amp;B--Visitors Welcome</name>
+      <description>238 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.1067829,31.4088134,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battiste's Bird Garden</name>
+      <description>194 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2475023,31.4204234,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brown Canyon Ranch (opened 2011)</name>
+      <description>201 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2977887,31.4740051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benson--San Pedro Golf Course-patio overlook</name>
+      <description>195 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2963,31.985,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ash Canyon Bird Sanctuary (closed Thursday morning; formerly Ash Canyon B&amp;B)</name>
+      <description>218 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2392496,31.3904516,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>stakeout Slate-throated Redstart, Pinery Canyon (2016-8)</name>
+      <description>117 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.2805143,31.9357543,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>W Turkey Creek Rd--Nat'l Forest boundary to road end (mp 8.3-11)</name>
+      <description>126 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.3487477,31.8658952,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sierra Vista EOP</name>
+      <description>272 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.1994019,31.5599995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Scotia Canyon--upper</name>
+      <description>147 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.4,31.45,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Simon Cienega (Arizona)</name>
+      <description>259 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.0532112,32.0841926,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro RNCA--Hereford Bridge</name>
+      <description>250 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.1076526,31.4384285,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro RNCA--generic (historical only, not for current checklists)</name>
+      <description>243 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.18,31.6572,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro RNCA--Charleston Bridge</name>
+      <description>197 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.1735992,31.6257,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ramsey Canyon Preserve (formerly Mile Hi Ranch)</name>
+      <description>220 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.3095955,31.4465224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ramsey Canyon Inn (opened 1988)</name>
+      <description>182 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.3068952,31.4486597,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rucker Canyon</name>
+      <description>168 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.3040055,31.7840489,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portal--Jasper/Moisan feeders (opened 2015)</name>
+      <description>176 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.1443118,31.9144645,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Miller Canyon--Beatty's Guest Ranch</name>
+      <description>202 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2765277,31.4156019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lower Carr Canyon Picnic Area</name>
+      <description>145 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2842231,31.4486986,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hunter Canyon Rd (Huachuca Mts)</name>
+      <description>145 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2506814,31.4039316,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guadalupe Canyon (Cochise Co.)</name>
+      <description>211 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.0694914,31.3435712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Garden Canyon (historical, please do not use for current lists)</name>
+      <description>211 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.3612378,31.4668458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chiricahua NM--Bonita Canyon CG</name>
+      <description>149 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.3551126,32.0112829,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cave Creek Canyon--USFS Visitor Center</name>
+      <description>189 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.1622511,31.8988382,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chiricahua NM--Bonita Canyon CG</name>
+      <description>149 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.3551126,32.0112829,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cave Creek Canyon--Southwestern Research Station</name>
+      <description>221 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.2058731,31.8835432,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cave Creek Canyon--South Fork</name>
+      <description>228 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.1883919,31.8688764,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benson STP</name>
+      <description>240 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2924,31.9815,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Miller Canyon (historical only, not for current checklists)</name>
+      <description>202 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2723346,31.4199191,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paradise--George Walker House</name>
+      <description>174 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-109.2191966,31.9350554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>stakeout Rufous-capped Warbler, Hunter Canyon (2013-2019)</name>
+      <description>144 species all time ...</description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <Point>
+        <coordinates>-110.2738108,31.3998382,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Mukta:wght@900&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+
+body {
+    margin: auto;
+    font-family: 'Mukta', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: indigo;
+  }
+
+  #root {
+    width: 100%;
+    margin: auto;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .sidebar {
+      grid-area: sidebar;
+    }
+    
+    .content {
+      grid-area: content;
+      min-height: 800px;
+    }
+  
+    .header {
+      grid-area: header;
+      text-align: center;
+      height: 110px;  
+    }
+  
+    .footer {
+      grid-area: footer;
+    }
+  
+    .wrapper {
+      background-color: #fff;
+    }
+  
+    .wrapper {
+      display: grid;
+      grid-gap: 1em;
+      grid-template-areas:
+       "header"
+       "sidebar"
+       "content"
+       "footer"
+    }
+  
+    @media only screen and (min-width: 500px)  {
+    .wrapper {
+  
+      grid-template-columns: 20% auto;
+      grid-template-areas:
+      "header  header  header"
+      "sidebar content content"
+      "footer  footer  footer";
+  }
+    }
+  
+    @media only screen and (min-width: 600px)   {
+      .wrapper {
+        position:relative;
+        grid-gap: 20px;
+        grid-template-columns: 400px auto 120px;
+        grid-template-areas:
+        "header  header  header"
+        "sidebar content content"
+        "footer  footer  footer";
+      }
+    }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%; 
+  }
+  
+  .footer {
+    background-color: indigo;
+  }
+
+  .datum {
+    color: #D43;
+    font-weight: 800;
+  }
+  
+/* The following line can be included in your src/index.js or App.js file */
+
+// import '../App.scss';
