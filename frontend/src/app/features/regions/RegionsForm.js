@@ -40,7 +40,7 @@ const RegionsForm = ({level, countryState }) => {
   const options = regions.map(region => {
     return (
         <React.Fragment key={`region_form-check_${region.code}`}>
-        <div className="form-check">
+        <div className="form-check" id={`region_form-check_${region.code}`}>
             <input className="form-check-input"
                 type="checkbox"
                 key={`region_checkbox_${region.code}`}

@@ -42,7 +42,7 @@ const CountryState = () => {
                                     value={state.code}
                                     onClick={onStateCheck}
                                 />
-                                <label key={`label_${state.code}`} className="form-check-label">{state.name}</label>
+                                <label htmlFor={state.code} key={`label_${state.code}`} className="form-check-label">{state.name}</label>
                             </li>
                         </React.Fragment>)})
                     }
