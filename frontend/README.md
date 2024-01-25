@@ -1,2 +1,2 @@
-# Getting Started with Create React App
+# Hotspotter Front end
 

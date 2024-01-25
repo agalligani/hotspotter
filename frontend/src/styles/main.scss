@@ -77,6 +77,14 @@ body {
         "footer  footer  footer";
       }
     }
+
+    ul.form-check {
+      -webkit-column-count: 4;
+      -moz-column-count: 4;
+      -o-column-count: 4;
+       column-count: 4;
+       list-style: none;
+     } 
   
   .box {
     background-color: #444;

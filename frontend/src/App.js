@@ -1,7 +1,6 @@
 import './styles/main.scss';
 import CountryState from './app/features/countryState/countryState'
 import { Container } from 'react-bootstrap';
-import HotSpots from './components/HotSpots';
 
 function App() {
   return (

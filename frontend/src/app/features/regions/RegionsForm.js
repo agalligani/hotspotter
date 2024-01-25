@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import axios from "axios";
 import { Form, Button } from "react-bootstrap";
 import { assignRegion, clearRegion } from './regionsSlice'
 import { useSelector, useDispatch } from "react-redux"
 import HotSpotsForm from "../hotSpots/HotSpotsForm"
 
-const RegionsForm = ({level, countryState}) => {
+const RegionsForm = ({level, countryState }) => {
 
   // const selectedCountryState = useSelector(( state ) => state.countryState.countryState)
   const selectedRegion = useSelector(( state ) => state.regions.regions)
@@ -17,16 +17,15 @@ const RegionsForm = ({level, countryState}) => {
     dispatch(assignRegion(e.target.value)) 
   }
 
-  const config = {
-    method: 'get',
-    maxBodyLength: Infinity,
+  const buildConfig = (level, countryState) => { return { method: 'get', maxBodyLength: Infinity,
     url: `https://api.ebird.org/v2/ref/region/list/${level}/${countryState}\n`,
-    headers: { 
-      'x-ebirdapitoken': 'dd5duaiiro1'
-    }
-  };
-  
+    headers: {'x-ebirdapitoken': 'dd5duaiiro1'}}
+  }
+
+  const config = useMemo(() => buildConfig(level, countryState), [level, countryState]);
+
   const [regions, setRegions] = useState([]);
+  const [skipRegions, setSkipRegions] = useState(false);
 
   useEffect(() => {
     axios(config)
@@ -34,7 +33,9 @@ const RegionsForm = ({level, countryState}) => {
     .catch(function (error) {
       console.log(error);
     });    
-  }, [countryState]);
+  }, [config]);
+
+  useEffect(() => {setSkipRegions(!(regions.length > 0))}, [regions]);
 
   const options = regions.map(region => {
     return (
@@ -52,14 +53,24 @@ const RegionsForm = ({level, countryState}) => {
         </div>
         </React.Fragment>
     )}
-  )
-  
-  if (!selectedRegion) {
+  )  
+    // 
+    // Skip Regions if there are no regions loaded.
+    // (Some Countries have only hotspots not organized by regions.)
+    //
+
+ if (skipRegions) {
   return (
-    <Form>
-      {selectedRegion}
-      <h4>Regions</h4>
-      {options}
+    <React.Fragment>
+      <HotSpotsForm region={countryState} />
+  </React.Fragment>
+  )
+ } else if (!selectedRegion) {
+    return (
+      <Form>
+        {selectedRegion}
+        <h4>Regions</h4>
+        {options}
     </Form>
   )
   } else {

@@ -1,39 +1,15 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect, useState, useMemo } from "react";
+import { Form, Button, FormSelect } from "react-bootstrap";
+import { assignRegion, clearRegion } from './regionsSlice'
+import { useSelector, useDispatch } from "react-redux"
+import HotSpotsForm from "../hotSpots/HotSpotsForm"
+import RegionsForm from "./RegionsForm";
 
-const Regions = ({level, countryState}) => {
 
-  const config = {
-    method: 'get',
-    maxBodyLength: Infinity,
-    url: `https://api.ebird.org/v2/ref/region/list/${level}/${countryState}\n`,
-    headers: { 
-      'x-ebirdapitoken': 'dd5duaiiro1'
-    }
-  };
-  
-  const [regions, setRegions] = useState([]);
-
-  useEffect(() => {
-    axios(config)
-    .then(res => setRegions(res.data))
-    .catch(function (error) {
-      console.log(error);
-    });    
-  }, [countryState]);
-
+const Regions = () => {
   return (
-    <div>
-      Regions
-      {regions.map((item, i) => {
-        return (
-          <div key={i}>
-            <p>{item?.name}</p>
-          </div>
-        );
-      })}
-    </div>
-  );
+    <RegionsForm />
+  )
 }
 
-export default Regions;
+export default Regions
